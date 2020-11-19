@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "pokeapi-js-wrapper": "^1.1.2",
+    "tailwindcss": "^1.9.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
