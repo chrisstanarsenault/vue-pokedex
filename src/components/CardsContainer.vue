@@ -6,7 +6,7 @@
 
 <script>
 import Input from "./Input";
-// const P = new this.$PokeGet.Pokedex();
+
 export default {
   name: 'CardsContainer',
   components: {

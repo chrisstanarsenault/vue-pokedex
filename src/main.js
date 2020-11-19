@@ -4,7 +4,8 @@ import App from "./components/App.vue";
 import "./assets/styles/index.css";
 
 const PokeGet = require("pokeapi-js-wrapper");
-Object.defineProperty(Vue.prototype, "$PokeGet", { value: PokeGet });
+const P = new PokeGet.Pokedex();
+Object.defineProperty(Vue.prototype, "$P", { value: P });
 
 Vue.config.productionTip = false;
 
