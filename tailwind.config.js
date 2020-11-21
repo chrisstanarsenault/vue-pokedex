@@ -260,9 +260,10 @@ module.exports = {
       default: "1"
     },
     fontFamily: {
+      press: ["Press Start 2P"],
       sans: [
         "Play",
-        "Press-Start-2P",
+        "Press Start 2P",
         "system-ui",
         "-apple-system",
         "BlinkMacSystemFont",
@@ -286,7 +287,8 @@ module.exports = {
         '"Courier New"',
         "monospace"
       ],
-      body: ["Play"]
+      body: ["Play"],
+      display: ["Play"]
     },
     fontSize: {
       xs: "0.75rem",

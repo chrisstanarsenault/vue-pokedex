@@ -22,7 +22,11 @@
   </section>
 
   <section v-else>
-    <h2>Loading</h2>
+    <img
+      src="../assets/images/pokeballLoader.png"
+      alt="spinning pokeball"
+      class="animate-spin"
+    />
   </section>
 </template>
 
